@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://www.epf.school.thecasualdev.me/</loc>
+		<priority>0.67</priority>
+		<lastmod>2024-06-14</lastmod>
+	</url>
+	<url>
+		<loc>https://www.epf.school.thecasualdev.me/gallery</loc>
+		<priority>0.33</priority>
+		<lastmod>2024-06-14</lastmod>
+	</url>
+	<url>
+		<loc>https://www.epf.school.thecasualdev.me/contact</loc>
+		<priority>0.33</priority>
+		<lastmod>2024-06-14</lastmod>
+	</url>
+	<url>
+		<loc>https://www.epf.school.thecasualdev.me/about</loc>
+		<priority>0.33</priority>
+		<lastmod>2024-06-14</lastmod>
+	</url>
+</urlset>
