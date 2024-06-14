@@ -1,0 +1,75 @@
+/* MOBILE FIRST VIEW */
+
+@import url('../global.css');
+
+h2 {
+    display: none;
+}
+
+aside {
+    background-color: var(--primary-background);
+    font-size: 120%;
+    padding: 5px 0;
+    text-align: center;
+    width: 100%;
+    border-radius: 20px;
+    outline: 3px solid var(--primary-secondary);
+    overflow: hidden;
+}
+
+article {
+    background-color: var(--primary-background);
+    color: white;
+    font-size: 120%;
+    padding: 0 10px;
+}
+
+aside a {
+    font-family: "Orbitron", sans-serif;
+    color: var(--tablet-text);
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    width: 100%;
+}
+aside a:hover {
+    background-color: var(--tablet-secondary);
+    color: var(--tablet-primary);
+    text-decoration: underline;
+}
+aside a:focus {
+    background-color: var(--tablet-secondary);
+    color: var(--tablet-primary);
+    text-decoration: underline;
+    outline: none;
+}
+
+#backdrop_img {
+    width: 100%;
+}
+
+/* MEDIA QUERY BREAKPOINT */
+
+@media only screen and (min-width: 768px) {
+
+    main {
+        display: flex;
+    }
+
+    aside {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        float: left;
+        width: 30%;
+        outline: none;
+    }
+
+    section {
+        display: inline;
+        float: right;
+        width: 70%;
+    }
+
+}

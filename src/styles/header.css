@@ -1,0 +1,99 @@
+/* MOBILE FIRST VIEW */
+
+@import url('./global');
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+header {
+    background-color: var(--primary-background);
+    overflow: hidden;
+}
+
+h1 {
+    font-family: "Passion One", sans-serif;
+    color: white;
+    float: left;
+    padding: 0px 20px;
+    text-align: center;
+    width: 100%;
+}
+
+h1 > a {
+    color: white;
+    text-decoration: none;
+}
+
+#hamburger_checkbox {
+    display: none;
+}
+#hamburger_icon {
+    display: block;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    width: 15%;
+}
+
+#hamburger_checkbox:not(:checked) + nav {
+    display: none;
+}
+
+/* Changes the style of the links */
+
+nav a {
+    font-family: "Orbitron", sans-serif;
+    color: var(--tablet-text);
+    background-color: var(--tablet-primary);
+    float: left;
+    font-size: 17px;
+    padding: 30px 20px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+nav a:hover {
+    text-decoration: underline;
+    background-color: var(--tablet-secondary);
+    color: var(--tablet-primary);
+}
+nav a:focus {
+    text-decoration: underline;
+    background-color: var(--tablet-secondary);
+    color: var(--tablet-primary);
+    outline: none;
+}
+
+.active_nav {
+    background-color: var(--tablet-secondary);
+    color: var(--tablet-primary);
+    text-decoration: underline;
+}
+
+/* MEDIA QUERY BREAKPOINT */
+
+@media only screen and (min-width: 768px) {
+
+    #hamburger_icon {
+        display: none;
+    }
+
+    #hamburger_checkbox:not(:checked) + nav {
+        display: block;
+    }
+
+    h1 {
+        text-align: left;
+        width: 390px;
+    }
+
+    nav {
+        float: right;
+    }
+
+    nav a {
+        width: auto;
+    }
+
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <title>EPF | Contact</title>
+        <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/pages/contact.css">
+
+        <!-- Header & Footer CSS, Shared across files. -->
+
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/footer.css">
+
+
+    </head>
+    
+    <body>
+
+        <header>
+
+            <h1><a href="index.html">THE EPF FILES</a></h1>
+
+            <label for="hamburger_checkbox">
+                <img src="assets/tablet.svg" alt="toggle menu" id="hamburger_icon">
+            </label>
+
+            <input type="checkbox" id="hamburger_checkbox">
+
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html" class="active_nav">Contact</a>
+            </nav>
+
+        </header>
+
+        <form id="contact_form" method="post">
+
+            <label for="firstname">First name:</label> <br>
+            <input type="text" autocomplete="given-name" name="firstname" id="firstname">
+
+            <br>
+
+            <label for="email">Email:</label> <br>
+            <input type="email" autocomplete="email" name="email" id="email">
+
+            <br>
+
+            <label for="message">Message:</label> <br>
+            <textarea name="message" id="message"></textarea>
+
+            <br>
+
+            <button type="submit">SUBMIT</button>
+            <button type="reset" id="reset">RESET</button>
+
+        </form>
+
+        <footer>
+            <p>
+                <a href="https://epf.school.thecasualdev.me/" target="_blank">Template</a> 
+                &copy; 2024 by <span class="name">Jack M.</span> is licensed under the
+                <a href="https://github.com/thecasualdevedu/template.site/tree/main?tab=GPL-3.0-1-ov-file#readme" target="_blank">GPL-3.0 license</a>
+            </p>
+        </footer>
+        
+    </body>
+
+</html>

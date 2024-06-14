@@ -1,0 +1,32 @@
+@import url('./global.css');
+
+footer {
+    background-color: var(--primary-background);
+    padding: 10px 0 4px 0;
+    text-align: center;
+    width: 100%;
+}
+footer p {
+    color: white;
+}
+footer a {
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+}
+footer a:hover {
+    background-color: white;
+    color: white;
+}
+footer a:focus {
+    background-color: white;
+    color: white;
+    outline: none;
+}
+
+.name {
+    color: var(--tablet-text);
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}

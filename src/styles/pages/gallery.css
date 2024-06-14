@@ -1,0 +1,43 @@
+/* MOBILE FIRST VIEW */
+
+#row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 12px;
+    vertical-align: middle;
+}
+
+.column {
+    margin-top: 0;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.column img {
+    padding-bottom: 10px;
+    width: 100%;
+    border-radius: 12px;
+}
+
+/* MEDIA QUERY BREAKPOINT */
+
+@media only screen and (min-width: 768px) {
+
+    .column {
+        max-width: 50%;
+        padding: 0 6px;
+    }
+
+    #row {
+        padding: 0 6px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .column {
+        max-width: 25%;
+    }
+
+} 

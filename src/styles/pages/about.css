@@ -1,0 +1,66 @@
+/* MOBILE FIRST VIEW */
+
+@import url(../global.css);
+
+main > div {
+    background-color: var(--tablet-primary);
+    outline: 3px solid var(--tablet-secondary);
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 20px;
+    text-align: left;
+}
+
+main > div > h2 {
+    font-family: "Orbitron", sans-serif;
+    color: var(--tablet-text);
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+}
+
+main > div > p {
+    font-family: "Orbitron", sans-serif;
+    color: var(--tablet-text);
+    font-size: 18px;
+}
+
+main {
+    background-color: var(--primary-background);
+    display: grid;
+    grid-template-areas: 
+    '.'
+    '.'
+    '.'
+    '.'
+    '.'
+    '.'
+    '.';
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.encrypted {
+    font-family: 'TicTacToe';
+}
+
+/* MEDIA QUERY BREAKPOINT */
+
+@media only screen and (min-width: 992px) {
+    
+    .container2 {
+        grid-area: area2;
+    }
+
+    .container3 {
+        grid-area: area3;
+    }
+
+    main {
+        grid-template-areas: 
+        '. area3 .'
+        'area2 area3 .'
+        'area2 area3 .';
+    }
+
+}

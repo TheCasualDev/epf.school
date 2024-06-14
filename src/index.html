@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <title>EPF | Home</title>
+        <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/pages/index.css">
+
+        <!-- Header & Footer CSS, Shared across files. -->
+
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/footer.css">
+
+
+    </head>
+    
+    <body>
+
+        <header>
+
+            <h1><a href="index.html">THE EPF FILES</a></h1>
+
+            <label for="hamburger_checkbox">
+                <img src="assets/tablet.svg" alt="toggle menu" id="hamburger_icon">
+            </label>
+
+            <input type="checkbox" id="hamburger_checkbox">
+
+            <nav>
+                <a href="index.html" class="active_nav">Home</a>
+                <a href="about.html">About</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+        </header>
+
+        <main>
+
+            <aside>
+                <a href="https://www.cpjourney.net/">Play Club Penguin Journery Here!</a>
+                <a href="https://clubpenguin.fandom.com/wiki/Category:EPF">Read more on the Wiki</a>
+                <a href="https://cparchives.miraheze.org/wiki/Main_Page">Check out Club Penguin Archives</a>
+            </aside>
+
+            <section>
+                <h2>Template</h2>
+                <img 
+                    id="backdrop_img"
+                    srcset="
+                    assets/images/backdrop/x480.webp 480w,
+                    assets/images/backdrop/x960.webp 960w,
+                    assets/images/backdrop/x1920.webp 1920w"
+                    sizes="
+                    (max-width: 480px) 480px,
+                    (max-width: 960px) 960px,
+                    (max-width: 1920px) 1920px"
+                    src="assets/images/backdrop/backdrop_1920.png"
+                    alt="template image"
+                    title="Template"
+                >
+                <article>
+                    <h2>Something about, Somethin</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec nunc enim. Nam in molestie elit. Nam consectetur consectetur luctus. Maecenas quis pellentesque mauris. Aliquam mattis purus est, sed sodales elit consectetur vehicula. Etiam auctor purus ut risus commodo laoreet non sed tellus. Aenean sodales sem non pulvinar feugiat. Quisque in malesuada neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer id pretium nisi. Donec suscipit tortor nec sem egestas, in rhoncus tortor auctor.</p>
+                </article>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>
+                <a href="https://epf.school.thecasualdev.me/" target="_blank">Template</a> 
+                &copy; 2024 by <span class="name">Jack M.</span> is licensed under the
+                <a href="https://github.com/thecasualdevedu/template.site/tree/main?tab=GPL-3.0-1-ov-file#readme" target="_blank">GPL-3.0 license</a>
+            </p>
+        </footer>
+        
+    </body>
+
+</html>

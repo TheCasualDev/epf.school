@@ -1,0 +1,15 @@
+:root {
+
+    --primary-background: #242429;
+    --primary-secondary: #53535f;
+
+    --tablet-primary: #047e04;
+    --tablet-secondary: #62ce62;
+    --tablet-text: #61ff61;
+    
+}
+
+@font-face {
+    font-family: 'TicTacToe';
+    src: url('../assets/fonts/tic-tac-toe-code.ttf');
+}
